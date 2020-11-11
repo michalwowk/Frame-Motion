@@ -36,7 +36,7 @@ function App() {
         <Route path="/order">
           <Order pizza={pizza} />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
